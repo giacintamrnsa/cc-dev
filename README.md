@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Mag-iT
 Mag-iT: Application to detect text in an image and read that text to facilitate farsighted people
 
@@ -19,3 +20,6 @@ In this project, we are targeting farsighted people, a condition in which visual
 | Tasya Christina Amanda    | C2320F2793   | Cloud Computing     |
 
 <br>
+=======
+# mag-it
+>>>>>>> d970b306b8e50d1953f0b71ed6dd8608fefa6c18
