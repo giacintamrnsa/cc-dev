@@ -3,7 +3,7 @@ const router = require('express').Router();
 const { checkToken } = require("../auth/validation");
 
 
-router.post("/signup", checkToken, createUser);
+router.post("/signup", createUser);
 
 router.get("/", checkToken, getUsers);
 router.get("/:id", checkToken, getUserById);

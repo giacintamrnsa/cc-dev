@@ -1,5 +1,4 @@
 const { verify } = require("jsonwebtoken");
-const { } = require("jsonwebtoken");
 
 module.exports= {
     checkToken: (req, res, next) => {
@@ -13,13 +12,15 @@ module.exports= {
                         message:"Invalid Token"
                     });
                 } else {
-                    next();
+                    //if (roles==2) {
+                        next();
+                    //}
                 }
             });
         } else {
             res.json({
                 success: 0,
-                message:"Access denied! Unatorized user!"
+                message:"Access denied! Unauthorized user!"
             })
         }
     }

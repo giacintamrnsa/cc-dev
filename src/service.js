@@ -5,12 +5,13 @@ module.exports = {
     create: (data, callBack) => {
       //const created_at = new Date().toISOString();
         pool.query(
-            `insert into usertb (name, email, password)
-            values(?,?,?)`,
+            `insert into usertb (name, email, password, roles)
+            values(?,?,?,?)`,
             [
                 data.name,
                 data.email,
-                data.password
+                data.password,
+                data.roles
             ],
             (error, results, fields) => {
                 if(error) {
