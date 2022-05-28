@@ -5,11 +5,12 @@ const { createPool } = require('mysql');
 
 const pool = createPool({
     port: process.env.DB_PORT,
+    //socketPath: process.env.DB_SOCKETPATH,
     host: process.env.DB_HOST,
     user: process.env.DB_USER,
     password: process.env.DB_PASS,
     database: process.env.MYSQL_DB,
-    socketPath: process.env.INSTANCE_CONNECTION_NAME
+    //socketPath: `/cloudsql/${process.env.INSTANCE_CONNECTION_NAME}`
 });
 
 // if(process.env.NODE_ENV === 'production') {

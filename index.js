@@ -10,3 +10,7 @@ app.use('/api/users', uRouter);
 app.listen(8080, () => {
     console.log("Server up and running on PORT: ", 8080);
 });
+
+app.get("/", async (req, res)=> {
+	res.json({ status: "App is ready!!"})
+});
