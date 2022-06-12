@@ -41,7 +41,7 @@
     }
     ```
     
-    ### Model Detection
+    ### Model Detection (CLick Here)
     
   **Base URL :**
 
