@@ -51,7 +51,7 @@
   - endpoint: `/detect`
   - body request:
     ```multipart/form-data
-    "img": image
+    img: image
     ```
   - body response:
     ```json
