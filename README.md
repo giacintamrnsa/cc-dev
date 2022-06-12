@@ -41,7 +41,7 @@
     }
     ```
     
-  ### Model Detection (CLick Here)
+  ### [Model Detection](https://github.com/XSmas29/OCR-Flask)
     
   **Base URL :**
 
