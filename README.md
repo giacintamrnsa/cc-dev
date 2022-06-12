@@ -47,8 +47,6 @@
 
   > https://mag-it-service-tnymgnzb5a-et.a.run.app/
     
-  - Model Result
-
   - method: `POST`,
   - endpoint: `/detect`
   - body request:
