@@ -30,8 +30,8 @@
   - endpoint: `/login`
   - body request:
     ```json
-    "email": string, email | required
-    "password": string | required
+    "email": varchar,
+    "password": varchar
     ```
   - body response:
     ```json
