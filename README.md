@@ -2,13 +2,17 @@
 
 ### Authentication User (Using JWT)
 
+**Base URL :**
+
+> https://mag-it-tnymgnzb5a-et.a.run.app/
+
 - Register
   - method: `POST`
   - endpoint: `/signup`
   - body request:
     ```json
-    "name": varchar
-    "email": varchar
+    "name": varchar,
+    "email": varchar,
     "password": varchar
     ```
   - body response:
@@ -38,6 +42,10 @@
     ```
     
     ### Model Detection
+    
+  **Base URL :**
+
+  > https://mag-it-service-tnymgnzb5a-et.a.run.app/
     
   - Model Result
 
